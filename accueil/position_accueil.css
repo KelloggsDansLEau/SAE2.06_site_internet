@@ -2,6 +2,11 @@ body{
     margin: 0;
 }
 
+/*
+Le header
+Le positionnement des boutons
+*/
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -21,4 +26,110 @@ header ul{
 header ul li{
     flex-grow: 1;
     text-align: center;
+}
+
+/* 
+Le main
+La séparation entre l'image et le texte pour chaque article
+*/
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+footer, body{
+	background: #000;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+
+footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    padding-left: 20%;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: white;
+	margin-bottom: 35px;
+	font-weight: normal;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	background-color: darkorchid;
+	height: 2px;
+	width: 50px;
+}
+
+.footer-col ul li{
+	margin-bottom: 10px;
+}
+
+.footer-col ul li p{
+    color: #bbbbbb;
+}
+
+.footer-col ul li a{
+	text-decoration: none;
+	color: #9291b3;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: aquamarine;
+	padding-left: 8px;
+}
+
+footer img{
+    width: 20%;
 }
