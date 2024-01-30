@@ -12,9 +12,19 @@ header{
     flex-wrap: wrap;
 }
 
+.row_header{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+header img{
+	width: 10%;
+}
+
 header h1{
     flex-basis: 100%;
     text-align: center;
+	padding:1%;
 }
 
 header ul{

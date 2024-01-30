@@ -14,15 +14,15 @@ header ul li{
     border: solid black 1px;
     margin: 0;
     background-color: orange;
-    height: 30px;
+    height: 40px;
 }
 
 header ul li a{
     text-decoration: none;
     color: black;
     margin: 0;
-    height: 30px;
-    line-height: 30px
+    height: 40px;
+    line-height: 40px
 }
 
 .button span{
@@ -34,7 +34,7 @@ header ul li a{
     content: '\00bb';
     position: absolute;
     opacity: 0;
-    top: -6px;
+    top: -12px;
     right: -20px;
     transition: 0.5s;
 }
@@ -52,8 +52,6 @@ main{
     background-color: lightgreen;
 }
 
-
-
 main img{
-    width: 400px;
+    width: 40%;
 }
