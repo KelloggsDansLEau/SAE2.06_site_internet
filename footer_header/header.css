@@ -15,13 +15,14 @@ header{
 }
 
 header img{
-	width: 15%;
+	width: 10%;
 }
 
 header h1{
     flex-basis: 100%;
     text-align: center;
 	padding:1%;
+    margin : auto
 }
 
 header ul{
@@ -33,6 +34,8 @@ header ul{
 header ul li{
     flex-grow: 1;
     text-align: center;
+    font-size: large;
+    font-weight: 00;
 }
 
 
@@ -51,7 +54,7 @@ header ul{
 header ul li{
     border: solid black 1px;
     margin: 0;
-    background-color: rgb(57, 4, 58);
+    background-color: rgb(9, 26, 67);
     height: 40px;
 }
 

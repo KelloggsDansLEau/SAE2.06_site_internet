@@ -1,7 +1,3 @@
-
-
-/* le main */
-
 main{
     background-color: rgb(3, 63, 75);
 }
@@ -14,11 +10,4 @@ main div{
 
 main div{
     font-size: large;
-}
-
-#logo_gemini{
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
