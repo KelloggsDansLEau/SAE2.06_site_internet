@@ -1,0 +1,14 @@
+
+
+/* le main */
+
+main{
+    background-color: rgb(3, 63, 75);
+}
+
+main div{
+	background-color: lightgrey;
+    border-radius: 30px;
+    padding: 30px;
+}
+
