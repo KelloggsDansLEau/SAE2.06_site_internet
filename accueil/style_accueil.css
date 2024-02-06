@@ -8,11 +8,12 @@ main{
 }
 
 .block p{
-    width: fit-content;
-    height: fit-content;
+    padding: 2%;
+    margin-bottom: auto;
 }
 
 main img{
     height: 100%;
     border-radius: 20px;
 }
+
