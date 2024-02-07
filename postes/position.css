@@ -1,0 +1,95 @@
+main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-basis: 15%;
+    flex-grow:1; 
+    padding-top: 5%; 
+  }
+  
+  .Postes1>div, .Postes2>div{
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom:70px;
+    margin-right: 40px;
+  }
+
+  .Postes1, .Postes2{
+    display: flex;
+    margin-left: 40px;
+  }
+  
+  .Postes1 div img, .Postes2 div img{
+    flex-basis:20%;
+  }
+
+  .Orcom{
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+
+  }
+  
+  .Orcom img{
+    width: 100%;
+  }
+  
+  .Orcom section{
+    margin:20px;
+    flex-basis:5%;
+    flex-grow: 1;
+  }
+  
+  
+  .Armee_Terre{
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+  }
+  
+  .Armee_Terre img{
+    width: 100%;
+  }
+  
+  .Armee_Terre section{
+    margin:20px;
+    flex-basis:5%;
+    flex-grow: 1;
+  }
+  
+  .Leclerc {
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+ }
+
+  .Leclerc img{
+    flex-basis:20%;
+    width: 100%;
+  }
+  
+  .Leclerc section{
+    margin:20px;
+    flex-basis:5%;
+    flex-grow: 1;
+  }
+
+  .Capgemini{
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+  }
+  
+  .Capgemini img{
+    width: 100%;
+  }
+  
+  .Capgemini section{
+    margin:20px;
+    flex-basis:5%;
+    flex-grow: 1;
+  }
+
+main > p {
+  margin-bottom: 20px;
+  color: lightgray;
+}

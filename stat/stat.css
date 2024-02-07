@@ -4,6 +4,7 @@ main{
 
     display: flex;
     flex-wrap: wrap;
+    font-size: larger;
 }
 
 

@@ -1,0 +1,11 @@
+.Postes1>div, .Postes2>div{
+    border:solid black;
+  }
+
+main {
+    background-color: rgb(3, 63, 75);
+}
+
+.Postes1 > div, .Postes2 > div{
+    background-color: lightgray;
+}
