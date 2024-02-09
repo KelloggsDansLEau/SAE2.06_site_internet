@@ -1,0 +1,201 @@
+
+    
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+
+
+section h1{
+
+    font-size: 25px;
+}
+
+main ul{
+
+    list-style: none;
+}
+
+
+main li {
+    
+    border:  0.5px solid black;
+    flex-grow: 1;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding: 1.5%;   
+}
+
+div p {
+
+    font-size: 1.79ch;
+}
+
+
+#image1, #image2, #image3, #image4{
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+article {
+
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.info1, .info2, .info3, .info4 {
+
+    padding-top: 3%;
+    padding-right: 1%;
+    border: solid black 0.5px;
+}
+
+.infos {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Image1{
+
+    width: 325px;
+    height: auto;
+    flex-basis: 20%;
+    border-radius: 5% 0% 0% 5%;
+    border: solid black 0.5px;
+
+}
+
+#Image2{
+
+    width: 500px;
+    height: auto;
+    flex-basis: 20%;
+    border-radius: 0% 5% 5% 0%;
+    border: solid black 0.5px;
+}
+
+#Image3{
+
+    width: 420px;
+    height: auto;
+    flex-basis: 20%;
+    border-radius: 5% 0% 0% 5%;
+    border: solid black 0.5px;
+}
+
+#Image4{
+
+    width: 550px;
+    height: auto;
+    flex-basis: 20%;
+    border-radius: 0% 6% 6% 0%;
+    border: solid black 0.5px;
+}
+
+main {
+    background-color:  rgb(3, 63, 75);
+}
+
+main > section{
+    margin-bottom: 1.5%;
+    width: 66%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info1, .info2, .info3, .info4 {
+    background-color: lightgray;
+    flex-basis: 5%;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+
+
+
+
+.info1, .info3{
+
+    border-radius: 25% 9% 9% 25% / 0% 25% 28% 0%;
+}
+
+
+.info2{
+    
+    border-radius: 8% 0% 0% 8% / 23% 25% 28% 26%;
+
+}
+
+
+
+.info4{
+    
+    border-radius: 4% 0% 0% 4% / 23% 25% 28% 26%;
+}
+
+
+#element1, #element2, #element3, #element4{
+    margin-top: 60px;
+    border-radius : 5%;
+    margin-bottom: 60px;
+}
+
+#element4 {
+    margin-bottom: 40px;
+}
+
+
+
+#element1 div h2 {
+    padding-top: 5px;
+}
+#element1 div p{
+    padding-top: 15px;
+    padding-left: 7px;
+}
+
+#element2 div h2 {
+    padding-top: 5px;
+    margin-left: 15px;
+    
+}
+#element2 div p{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+#l1, #l2, #l3{
+    padding-left: 35px;
+}
+
+#l3 {
+    padding-bottom: 10px;
+}
+
+#element3 div h2 {
+    padding-top: 5px;
+    margin-left: 15px;
+    
+}
+#element3 div p{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+#element4 div h2 {
+    padding-top: 5px;
+    margin-left: 15px;
+    
+}
+#element4 div p{
+    padding-top: 15px;
+    margin-left: 15px;
+}

@@ -1,0 +1,20 @@
+main{
+    background-color: rgb(3, 63, 75);
+}
+
+main div{
+	background-color: lightgrey;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+main div{
+    font-size: large;
+}
+
+#logo_gemini{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
