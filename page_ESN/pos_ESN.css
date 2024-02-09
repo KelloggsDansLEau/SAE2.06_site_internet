@@ -1,0 +1,30 @@
+
+
+/* Le main */
+
+main{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+main div{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 66%;
+}
+
+main h2{
+	padding-bottom: 30px;
+}
+
+main ul {
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+main li{
+	padding-top: 10px;
+}
+
+
